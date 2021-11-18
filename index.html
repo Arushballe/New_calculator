@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/webcamjs/1.0.26/webcam.js"></script>
+</head>
+<body>
+    <center>
+        <h1>Put first number here</h1>
+        <h2>👇👇👇</h2>
+        <input type="text" class="btn text_input" placeholder="First Number" id="first_number">
+        <br>
+        <br>
+
+        <hr>
+        
+        <br>
+        <br>
+
+        <h1>Put second number here </h1>
+        <h2>👇👇👇</h2>
+        <input type="text" class="btn text_input" placeholder="Second Number" id="second_number">
+    </center>
+
+    <br>
+    <br>
+
+    <center>
+    <span>
+        <button class="btn btn-success sign" onclick="add();">+</button>
+        <button class="btn btn-info sign" onclick="multiply();">x</button>
+        <button class="btn btn-success sign" onclick="subtract();">-</button>
+        <button class="btn btn-info sign" onclick="divide();">÷</button>
+    </span>
+
+    <h3 id="result"></h3>
+    </center>
+</body><script src="main.js"></script>
+</html>

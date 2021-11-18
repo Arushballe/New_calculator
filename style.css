@@ -1,0 +1,16 @@
+body{
+
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background: linear-gradient(-135deg, #c850c0, #4158d0);
+  }
+
+hr{
+    width: 70%;
+}
+
+h1{
+    color: black;
+    font-weight: bold;
+}
